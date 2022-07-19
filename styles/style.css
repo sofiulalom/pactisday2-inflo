@@ -1,8 +1,77 @@
-/*---font--- */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;1,100;1,300&display=swap');
-/* styles css */
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,800;0,900;1,100;1,200;1,300;1,700;1,800;1,900&display=swap');
+/* stylesheet */
 body{
+    background-color: #f5eeee;
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+}
+ /* header container */
+ .container{
+    width: 966px;
+    
+ }
+ /* topbar inpu */
+ .topbar-inpu{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+
+ }
+ .logo{
+    font-size: 1em;
+    font-weight: 500;
+ }
+ /* navber inpormation */
+ nav ul{
+    display: flex;
+ }
+ ul li{
+    list-style: none;
+    margin-right: 20px;
+ }
+ ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #2f2d2d;
+    font-weight: 600;
+ }
+ /* bannar conntante */
+ .bannar-contant{
+    display: flex;
+   
+ }
+ .bannar-inpu{
+    width: 50%;
+    padding: 20px 70px;
+ }
+ .btn{
+    background-color: #d71452;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 40px;
+   
+
+ }
+ .btn a{
+    text-decoration: none;
+   
+    color: #ffffff;
+ }
+.btn a> .fa-caret-right{
+    margin-left: 5px;
+}
+.bannar-image{
+    width: 50%;
+   
+}
+.bannar-image img{
+    width: 75%;
+    border: 1px solid #d2e9f2;
+    border-radius:50%;
+}
+hr{
+    color: #f1e6e6;
+    width: 700px;
 }
