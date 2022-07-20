@@ -6,10 +6,12 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+  
 }
  /* header container */
  .container{
-    width: 966px;
+    width: 1000px;
+    height: 420px;
     
  }
  /* topbar inpu */
@@ -63,15 +65,86 @@ body{
     margin-left: 5px;
 }
 .bannar-image{
-    width: 50%;
-   
+    width: 50%; 
+
 }
-.bannar-image img{
+ .bannar-image img{
     width: 75%;
-    border: 1px solid #d2e9f2;
-    border-radius:50%;
-}
+    border: 1px solid  #d2e9f2;
+    border-radius: 50%;
+} 
 hr{
+   margin-top: 10px;
     color: #f1e6e6;
     width: 700px;
+}
+.site-logos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.logo-image{
+ width: 11%;
+}
+.logo-image img{
+  width: 57%;
+}
+/* populer collection inpomation */
+.collection-inpu{
+   text-align: center;
+   color: gray;
+   margin-top: 69px;
+}
+.blogs{
+   
+width: 67%;
+   
+margin: auto;
+   
+display: grid;
+   
+grid-template-columns:
+   
+repeat(3, 1fr);
+   
+grid-row-gap: 20px;
+   grid-column-gap:20px ;
+}
+.blog-image{
+   width: 88%;
+   background-color: white;
+   margin: auto;
+   padding: 12px;
+   border-radius: 5px;
+}
+.blog-image img{
+ width: 100%;
+
+}
+h3{
+   font-size: 20px;
+   font-weight: 600;
+   color: #3b3939;
+   margin: 5px 0;
+}
+p{
+   font-weight: 600;
+   font-size: 13;
+   color: #3b3939;
+   margin: 5px 0;
+}
+.blog-icon{
+   color: gold;
+   font-size: 8px;
+  
+}
+span{
+   color: black;
+   font-size: 11px;
+
+}
+small{
+   display: block;
+   font-size: 11px;
 }
